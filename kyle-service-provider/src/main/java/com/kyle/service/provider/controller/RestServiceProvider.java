@@ -14,8 +14,11 @@
 package com.kyle.service.provider.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.kyle.service.provider.entity.Person;
@@ -35,14 +38,28 @@ public class RestServiceProvider {
 	private String ipAddress;
 
 	/**
+	 * @param name
 	 * @return Person
 	 * @Description: post接口
 	 * @create date 2018年5月19日上午9:44:08
 	 */
 	@RequestMapping(value = "/demo/postPerson", method = RequestMethod.POST, produces = "application/json; charset=UTF-8")
-	public Person postPerson(String name) {
+	public Person postPerson(@RequestParam("name") String name) {
 		Person person = new Person();
 		person.setName(name);
+		person.setAge("10");
+		person.setSex("man");
+		return person;
+	}
+
+	/**
+	 * @param person
+	 * @return Person
+	 * @Description: post接口
+	 * @create date 2018年6月27日下午5:50:56
+	 */
+	@RequestMapping(value = "/body/postPerson", method = RequestMethod.POST, produces = "application/json; charset=UTF-8")
+	public Person postPerson(@RequestBody Person person) {
 		person.setAge("10");
 		person.setSex("man");
 		return person;
@@ -55,7 +72,19 @@ public class RestServiceProvider {
 	 * @create date 2018年5月19日上午9:46:34
 	 */
 	@RequestMapping(value = "/demo/getHost", method = RequestMethod.GET)
-	public String getHost(String name) {
+	public String getHost(@RequestParam("name") String name) {
 		return "hi, " + name + "! i from " + ipAddress + ":" + port;
+	}
+
+	/**
+	 * @param name
+	 * @param age
+	 * @return String
+	 * @Description: get接口,包含header信息
+	 * @create date 2018年6月27日下午5:43:29
+	 */
+	@RequestMapping(value = "/head/getHost", method = RequestMethod.GET)
+	public String getHost(@RequestParam("name") String name, @RequestHeader Integer age) {
+		return "hi, " + name + ", your age is " + age + "! i from " + ipAddress + ":" + port;
 	}
 }

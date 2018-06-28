@@ -38,7 +38,7 @@ public class ServiceClient {
 	 * @create date 2018年5月19日下午12:08:29
 	 */
 	public String getHost(String name) {
-		return restTemplate.getForObject("http://service-provider/demo/getHost?name=" + name, String.class);
+		return restTemplate.getForObject("http://hello-service-provider/demo/getHost?name=" + name, String.class);
 	}
 
 	/**
@@ -48,6 +48,7 @@ public class ServiceClient {
 	 * @create date 2018年5月19日下午12:08:43
 	 */
 	public Person postPerson(String name) {
-		return restTemplate.postForObject("http://service-provider/demo/postPerson?name=" + name, null, Person.class);
+		return restTemplate.postForObject("http://hello-service-provider/demo/postPerson?name=" + name, null,
+				Person.class);
 	}
 }

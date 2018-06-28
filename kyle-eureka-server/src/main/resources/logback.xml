@@ -9,7 +9,7 @@
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
 
 	<!-- 定义日志文件 输入位置 -->
-	<property name="log_dir" value="/logs/eureka_server" />
+	<property name="log_dir" value="logs/eureka_server" />
 	<!-- linux : 相对路径 <logs/server_cmdb> ; 要配置绝对路径 < /app/emservice/logs/server_cmdb > windows < E:/logs/server_cmdb > -->
 	
 	<!-- 日志最大的历史 30天 -->
