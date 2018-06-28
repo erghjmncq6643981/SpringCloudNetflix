@@ -1,0 +1,6 @@
+2018-06-28 17:08:34.856 [AsyncResolver-bootstrap-executor-0] INFO 
+				com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+2018-06-28 17:08:43.677 [AsyncResolver-bootstrap-executor-0] INFO 
+				com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+2018-06-28 17:08:55.418 [AsyncResolver-bootstrap-executor-0] INFO 
+				com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
