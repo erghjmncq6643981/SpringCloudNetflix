@@ -1,0 +1,54 @@
+2018-07-01 01:51:49.876 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889 - Re-registering apps/EUREKA-SERVER
+2018-07-01 01:51:49.882 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889: registering service...
+2018-07-01 01:51:50.216 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889 - registration status: 204
+2018-07-01 03:51:57.944 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8887 - Re-registering apps/EUREKA-SERVER
+2018-07-01 03:51:57.951 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8887: registering service...
+2018-07-01 03:51:57.988 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8887 - registration status: 204
+2018-07-01 03:52:03.188 [AsyncResolver-bootstrap-executor-0] INFO 
+				com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+2018-07-01 03:52:06.975 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO 
+				com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 10
+2018-07-01 03:52:12.013 [AsyncResolver-bootstrap-executor-0] INFO 
+				com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+2018-07-01 05:52:10.674 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8888 - Re-registering apps/EUREKA-SERVER
+2018-07-01 05:52:10.868 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8888: registering service...
+2018-07-01 05:52:10.948 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8888 - registration status: 204
+2018-07-01 07:50:27.237 [AsyncResolver-bootstrap-executor-0] INFO 
+				com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+2018-07-01 07:50:27.432 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO 
+				com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 10
+2018-07-01 07:50:27.501 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO 
+				com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold - Current renewal threshold is : 10
+2018-07-01 07:50:28.043 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889 - Re-registering apps/EUREKA-SERVER
+2018-07-01 07:50:28.044 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889: registering service...
+2018-07-01 07:50:28.061 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889 - registration status: 204
+2018-07-01 08:06:12.710 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8887 - Re-registering apps/EUREKA-SERVER
+2018-07-01 08:06:12.711 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8887: registering service...
+2018-07-01 08:06:12.718 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8887 - registration status: 204
+2018-07-01 08:06:12.826 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8888 - Re-registering apps/EUREKA-SERVER
+2018-07-01 08:06:12.826 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8888: registering service...
+2018-07-01 08:06:12.832 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8888 - registration status: 204
+2018-07-01 08:06:13.237 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.renew - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889 - Re-registering apps/EUREKA-SERVER
+2018-07-01 08:06:13.237 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889: registering service...
+2018-07-01 08:06:13.240 [DiscoveryClient-HeartbeatExecutor-0] INFO 
+				com.netflix.discovery.DiscoveryClient.register - DiscoveryClient_EUREKA-SERVER/10.166.37.142:eureka-server-peer:8889 - registration status: 204
